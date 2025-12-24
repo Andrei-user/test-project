@@ -1,0 +1,9 @@
+Проверка статуса: git status
+Сохранение измений во временное хранилище: git stash
+Переключение на другую ветку: git checkout main
+Исправление багов и добавление комита:git add .
+git commit -m "Fix critical bug"
+Переключаемся на рабочую ветку: git checkout feature/junior-task
+Возвращение измений: git stash pop
+Измение последнего комита: git stash pop
+
