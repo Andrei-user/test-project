@@ -1,0 +1,8 @@
+services:
+  web:
+    image: my-web-app:latest
+    container_name: my-web-compose
+    ports:
+      - "8081:80"
+    volumes:
+      - /home/dunno/Desktop/test-project/index.html:/usr/share/nginx/html/index.html
